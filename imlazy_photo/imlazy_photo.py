@@ -53,6 +53,3 @@ def _move_file(file_list, path):
                 has_video_dir = True
 
             shutil.move(file_name, f'{path}/video_clips/{file_name}')
-
-f_path = sort_photo()
-make_dir_move_file(f_path)
