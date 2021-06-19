@@ -31,8 +31,5 @@ def make_dir_move_file(path_dict):
 
 def _move_file(file_list, path):
     for file_name in file_list:
+        print(file_name)
         shutil.move(file_name, f'{path}/{file_name}')
-
-if __name__ == '__main__':
-    path_dict = sort_photo()
-    make_dir_move_file(path_dict)

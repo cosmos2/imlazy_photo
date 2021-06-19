@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="imlazy_photo", # Replace with your own username
-    version="0.0.2",
+    version="1.0.1",
     author="cosmos2",
     author_email="playnstop.s@gmail.com",
     description="Make directory and put in photo",
